@@ -31,4 +31,22 @@ a {
   color: #888;
 }
 
+/* Main Sub Banners */
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+main ul li {
+  /* display: inline-block; */
+  list-style: none;
+  float: left;
+  margin: 30px 30px 30px 0px;
+}
+
+main ul li:last-child {
+  margin-right: 0px;
+}
+
 
