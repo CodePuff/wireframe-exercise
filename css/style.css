@@ -24,6 +24,7 @@ header ul li {
 nav {
   width: 960px;
   margin: 0px auto;
+  /* Noticing the nav bar is not dynamic when sizing window... */
 }
 
 a {
@@ -47,6 +48,47 @@ main ul li {
 
 main ul li:last-child {
   margin-right: 0px;
+}
+
+/* Featured Section */
+
+section img {
+  float: left;
+}
+
+section div {
+  width: calc(50% - 30px);
+  float: left;
+  padding-left: 30px;
+  margin-bottom: 30 px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+section div p {
+  height: 320px;
+  overflow: auto;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: italic;
+}
+
+button {
+  border: none;
+  padding: 10px 30px;
+  background-color:#000;
+  color:#fff;
+  border-radius: 3px;
+  font-size: 18px;
+  margin-top: 17px;
+  transition: 350ms;
+  cursor: pointer;
+}
+
+button:hover {
+  background: blue;
 }
 
 
