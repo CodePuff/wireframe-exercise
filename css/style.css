@@ -54,6 +54,7 @@ main ul li:last-child {
 
 section img {
   float: left;
+  margin-bottom: 30px;
 }
 
 section div {
@@ -83,6 +84,7 @@ button {
   border-radius: 3px;
   font-size: 18px;
   margin-top: 17px;
+  margin-bottom: 30px;
   transition: 350ms;
   cursor: pointer;
 }
@@ -91,4 +93,11 @@ button:hover {
   background: blue;
 }
 
+/* Footer */
+
+footer {
+  clear: both;
+  background: #444;
+  height: 150px;
+}
 
